@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.phuoctpl.test.hibernateMongoDB.AppTest" time="0.027" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.class.path" value="E:\personal\dev\practice\workspace\hibernateMongoDB\target\test-classes;E:\personal\dev\practice\workspace\hibernateMongoDB\target\classes;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\junit\junit\4.11\junit-4.11.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\ogm\hibernate-ogm-mongodb\5.0.0.Final\hibernate-ogm-mongodb-5.0.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\ogm\hibernate-ogm-core\5.0.0.Final\hibernate-ogm-core-5.0.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\hibernate-core\5.0.9.Final\hibernate-core-5.0.9.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\com\fasterxml\classmate\1.0.0\classmate-1.0.0.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\hibernate-entitymanager\5.0.9.Final\hibernate-entitymanager-5.0.9.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\jboss\logging\jboss-logging\3.2.1.Final\jboss-logging-3.2.1.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1.1\geronimo-jta_1.1_spec-1.1.1.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\hql\hibernate-hql-parser\1.2.0.Final\hibernate-hql-parser-1.2.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\mongodb\mongo-java-driver\3.2.2\mongo-java-driver-3.2.2.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\parboiled\parboiled-java\1.1.7\parboiled-java-1.1.7.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\parboiled\parboiled-core\1.1.7\parboiled-core-1.1.7.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\ow2\asm\asm-tree\5.0.3\asm-tree-5.0.3.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\ow2\asm\asm-analysis\5.0.3\asm-analysis-5.0.3.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\ow2\asm\asm-util\5.0.3\asm-util-5.0.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\PHUOCT~1\AppData\Local\Temp\surefire7719320331088241461\surefirebooter1695718035085154492.jar C:\Users\phuoctpl1\AppData\Local\Temp\surefire7719320331088241461 2019-11-25T11-31-37_190-jvmRun1 surefire1383639669175384452tmp surefire_03541988679840640852tmp"/>
+    <property name="surefire.test.class.path" value="E:\personal\dev\practice\workspace\hibernateMongoDB\target\test-classes;E:\personal\dev\practice\workspace\hibernateMongoDB\target\classes;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\junit\junit\4.11\junit-4.11.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\ogm\hibernate-ogm-mongodb\5.0.0.Final\hibernate-ogm-mongodb-5.0.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\ogm\hibernate-ogm-core\5.0.0.Final\hibernate-ogm-core-5.0.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\hibernate-core\5.0.9.Final\hibernate-core-5.0.9.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\com\fasterxml\classmate\1.0.0\classmate-1.0.0.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\hibernate-entitymanager\5.0.9.Final\hibernate-entitymanager-5.0.9.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\jboss\logging\jboss-logging\3.2.1.Final\jboss-logging-3.2.1.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1.1\geronimo-jta_1.1_spec-1.1.1.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\hibernate\hql\hibernate-hql-parser\1.2.0.Final\hibernate-hql-parser-1.2.0.Final.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\mongodb\mongo-java-driver\3.2.2\mongo-java-driver-3.2.2.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\parboiled\parboiled-java\1.1.7\parboiled-java-1.1.7.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\parboiled\parboiled-core\1.1.7\parboiled-core-1.1.7.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\ow2\asm\asm-tree\5.0.3\asm-tree-5.0.3.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\ow2\asm\asm-analysis\5.0.3\asm-analysis-5.0.3.jar;E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository\org\ow2\asm\asm-util\5.0.3\asm-util-5.0.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\phuoctpl1"/>
+    <property name="user.language" value="ja"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre"/>
+    <property name="basedir" value="E:\personal\dev\practice\workspace\hibernateMongoDB"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\PHUOCT~1\AppData\Local\Temp\surefire7719320331088241461\surefirebooter1695718035085154492.jar"/>
+    <property name="sun.boot.class.path" value="D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\lib\resources.jar;D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\lib\rt.jar;D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\lib\sunrsasign.jar;D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\lib\jsse.jar;D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\lib\jce.jar;D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\lib\charsets.jar;D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\lib\jfr.jar;D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+    <property name="user.name" value="PhuocTPL1"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="MS932"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="E:\EOSL\Projects\HPG_EOSL\hpj_new\dev\mvn_repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PHUOCT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="user.dir" value="E:\personal\dev\practice\workspace\hibernateMongoDB"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\ImageMagick-6.7.6-Q16;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\personal\dev\apache-maven-2.0.10\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;E:\personal\dev\other\curl-7.67.0-win64-mingw\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.20-b23"/>
+    <property name="java.ext.dirs" value="D:\Projects\RNN_LaRue\rnn_dev\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.phuoctpl.test.hibernateMongoDB.AppTest" time="0.001"/>
+</testsuite>

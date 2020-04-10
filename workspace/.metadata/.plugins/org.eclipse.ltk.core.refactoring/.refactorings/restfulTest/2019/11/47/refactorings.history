@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;webservice/src/main/java/com.phuoctpl.test&apos;&#x0D;&#x0A;- Original project: &apos;restfulTest&apos;&#x0D;&#x0A;- Destination element: &apos;webservice/src/main/java/com.phuoctpl.test&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     phuoctpl.test.User.java&#x0D;&#x0A;     phuoctpl.test.UserDao.java&#x0D;&#x0A;     phuoctpl.test.UserService.java" description="Copy compilation units" destination="=webservice/src\/main\/java&lt;com.phuoctpl.test" element1="/src&lt;phuoctpl.test{User.java" element2="/src&lt;phuoctpl.test{UserDao.java" element3="/src&lt;phuoctpl.test{UserService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1574049509010" units="3" version="1.0"/>
+</session>

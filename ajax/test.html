@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="demo">
+<h1>Mock</h1>
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+<script>
+function loadDoc() {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+	if (this.readyState == 4 && this.status == 200) {
+		document.getElementById("demo").innerHTML =
+		this.responseText;
+	}
+	};
+//	var jsonInput = {"access_token":"23e68ec3b1a07e67315cf2950247fbacd8b382a1fc5960470e49b158ebbc95d1", "expire":"20191212161928", "store_id":"J000026524","mobile_flg":"0"};
+	xhttp.open("POST", "https://api.local/API/report/storeReport/?access_token=99e68ec3b1a07e67315cf2950247fbacd8b382a1fc5960470e49b158ebbc95d1&expire=20191212161928&store_id=J000026524&mobile_flg=0&goes_store_year=2018&goes_store_month=8&recom_menu_1=aaa&recom_menu_2=aaa&recom_menu_3=aaa&report_title=aaa&report_text=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", true);
+	xhttp.setRequestHeader("Content-type", "application/json");
+	xhttp.setRequestHeader("apiKey", "THGW92YBCPWF283ULC3HK9G5Y5VLGU3L");
+//	xhttp.setRequestHeader("svcCd", "HPG");
+//	xhttp.send(JSON.stringify(jsonInput));
+//	xhttp.send("access_token=23e68ec3b1a07e67315cf2950247fbacd8b382a1fc5960470e49b158ebbc95d1&expire=20190925161928&store_id=J000026524&mobile_flg=0");
+	xhttp.send();
+}
+</script>
+
+</body>
+</html>

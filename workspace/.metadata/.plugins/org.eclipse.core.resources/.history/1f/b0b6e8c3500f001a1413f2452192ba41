@@ -1,0 +1,5 @@
+package com.phuoctpl.test.util;
+
+public class HibernateOGMUtil {
+
+}

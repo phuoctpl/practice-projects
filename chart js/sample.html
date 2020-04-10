@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chart.js examples</title>
+        <script src="E:\personal\dev\js\package\dist\Chart.min.js"></script>
+    </head>
+    <body>
+    <select onchange="init()" id="sel">
+        <option selected disabled>Choose one</option>
+        <option value="pie">Pie</option>
+        <option value="doughnut">Doughnut</option>
+        <option value="bar">Bar</option>
+        <option value="polarArea">PolarArea</option>     
+    </select>
+
+      <!--Chart.js Canvas Tag -->
+      <canvas id="barChart"></canvas>
+  <script>
+      var canvas = document.getElementById("barChart");
+var ctx = canvas.getContext('2d');
+
+ Chart.defaults.global.defaultFontColor = 'black';
+ Chart.defaults.global.defaultFontSize = 16;
+
+var data = {
+    labels: ['red','green','blue'],
+      datasets: [
+        {
+            fill: true,
+            backgroundColor: [
+                'red',
+                'green',
+                'blue'],
+            data: [25,45,30]
+        }
+    ]
+};
+
+
+var options = {
+        title: {
+                  display: true,
+                  text:'colors',
+                  position: 'top'
+              },
+        rotation: -0.7 * Math.PI
+};
+
+function init(){
+    var change = document.getElementById("sel").value;
+// Chart declaration:
+var myBarChart = new Chart(ctx, {
+    type: change,
+    data: data,
+    options: options
+});
+}
+  </script>
+    </body>
+</html>

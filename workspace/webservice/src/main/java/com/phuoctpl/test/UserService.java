@@ -1,0 +1,20 @@
+package com.phuoctpl.test;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Application;
+import javax.ws.rs.core.MediaType;  
+@Path("/UserService")
+
+public class UserService extends Application {
+   UserDao userDao = new UserDao();  
+   @GET
+   @Path("/users")
+   @Produces(MediaType.APPLICATION_XML)
+   public List<User> getUsers(){
+      return userDao.getAllUsers();
+   }
+}

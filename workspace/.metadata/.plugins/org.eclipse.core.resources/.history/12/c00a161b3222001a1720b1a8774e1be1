@@ -1,0 +1,5 @@
+package com.phuoctpl.test.hibernateElasticsearch;
+
+public class CipherTest {
+
+}
